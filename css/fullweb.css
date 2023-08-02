@@ -1,0 +1,175 @@
+*{
+    font-family: optima;
+    /*background-color: var(--lightteal);*/
+
+
+
+}
+
+
+/* Colors */
+:root {
+    --offwhite: #FFFFFF;
+    --lightpurple: #957DAD;
+    --coral: #FFDFD3;
+    --black: #575757;
+    --lightpink: #FFF0F5;
+    --lightteal: #e9f0ef;
+    --mauve: #D291BC;
+    --verylightpurple: #f5f0f5;
+    --darkpurple: #5c387a;
+    --velvetpink: #ba79a0;
+    --gold: #d99e09;
+    --lightorange: #f7e3d7;
+
+
+}
+
+body {
+    /*
+    background-color: var(--verylightpurple);
+    */
+    scrollbar-width: thin;
+       overflow: scroll;
+       scrollbar-gutter: stable;
+    overflow-x: hidden;
+    margin: 0;
+    background-image: linear-gradient(to bottom, var(--verylightpurple), var(--lightteal), var(--verylightpurple));
+
+}
+    /*scroll bar customization*/
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: white;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--lightpurple);
+}
+
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    position: sticky;
+    top: 0;
+    right: 0;
+    background-color: var(--offwhite);
+    /*
+    border: 5px solid var(--coral);
+    */
+
+    padding: 30px 40px 20px 30px;
+    border-weight: 5px;
+    width: 100%;
+    box-shadow: 0 1px 3px #d9d8d7;
+    z-index: 1;
+    opacity: 0.93;
+
+
+
+}
+
+
+.navbar a:link, a:visited {
+    /*
+    background-color: cornflowerblue;
+        padding: 10px 15px;
+
+
+    */
+    color: var(--lightpurple);
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase
+}
+
+.spacer {
+    height: 100px;
+}
+
+.navspacer {
+    width: 300px;
+}
+
+.navbar a:hover {
+    color: var(--mauve);
+}
+
+
+
+p, h4, h3, h2, h1{
+    color: var(--black);
+}
+
+.dropbtn {
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: var(--offwhite);
+    text-align: center;
+}
+
+.dropdown-content a:hover {
+    background-color: var(--lightpink);
+}
+
+.dropdown {
+}
+
+.dropdown-content a {
+    display: block;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.recipe p {
+    margin: 5px;
+    text-align: left;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+
+.recipe img{
+    aspect-ratio: 2 /3 ;
+    width: 15vw;
+    border-radius: 1vw;
+
+}
+
+.recipe {
+    margin: 5px;
+    padding: 15px;
+    box-shadow: 0 1px 3px #d9d8d7;
+        border-radius: 1vw;
+
+}
+img {
+        box-shadow: 0 1px 3px #d9d8d7;
+
+}
+
+
+/*
+img:hover {
+    filter: brightness(70%);
+    z-index: 0;
+
+}
+
+*/

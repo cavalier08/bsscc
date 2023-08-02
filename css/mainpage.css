@@ -1,0 +1,254 @@
+h2 {
+    font-size: 4vw;
+}
+
+.title {
+    text-transform: uppercase;
+
+
+}
+
+
+
+
+
+.spacer {
+    height: 100px;
+
+}
+
+.heading {
+    height: 95vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.heading::-webkit-scrollbar {
+           display: none;
+}
+
+.heading img {
+    width: 100vw;
+    opacity: 0.4;
+}
+
+.blurb {
+    position: absolute;
+    bottom: 100px;
+    left: 20vw;
+    width: 60%;
+    text-align: center;
+}
+
+.blurb h2, .blurb h3, .blurb p{
+    color: var(--darkpurple);
+    font-weight: bold;
+}
+
+.blurb h2 {
+    font-size: 100px;
+}
+
+
+
+.upcomingeventscontainer h3{
+    color: var(--lightpurple);
+    font-size: 3vh;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+}
+
+
+.upcomingevents{
+    display: flex;
+    background-color: var(--offwhite);
+    padding: 30px;
+    overflow: scroll;
+}
+
+.upcomingevents::-webkit-scrollbar {
+    display: none;
+}
+
+.event img {
+    width: 20vw;
+    margin: 10px;
+    aspect-ratio: 2 / 3;
+    border-radius: 10px;
+}
+
+
+
+.bestof img:hover {
+    width: 40vw;
+    aspect-ratio: 1/1;
+}
+.subtitle {
+    text-align: center;
+    background-color: var(--offwhite);
+    padding: 10px;
+    font-size: 3vh;
+    color: var(--lightpurple);
+}
+.favorites{
+    text-align: center;
+    background-color: var(--offwhite);
+    display: flex;
+    padding: 30px 20px;
+    overflow-x: scroll;
+    max-height: 600px;
+
+}
+.favorites::-webkit-scrollbar {
+            display: none;
+          }
+
+.subtitle {
+
+
+}
+
+.theteamcontainer {
+    display: flex;
+    justify-content: center;
+
+}
+
+.theteam{
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    background-color: var(--offwhite);
+    box-shadow: 0 1px 3px #d9d8d7;
+
+
+}
+
+
+
+.theteamdescrip {
+    width: 40vw;
+    margin: 0 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.theteamdescrip h2 {
+    margin-bottom: 10px;
+    color: var(--darkpurple);
+}
+
+.theteamdescrip hr {
+    border: 0.4vh dotted var(--coral);
+}
+
+.theteamdescrip p {
+    padding-top: 30px;
+}
+
+
+
+.theteampics {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    width: 60vw;
+    padding-top: 30px;
+
+
+}
+
+.bio {
+    width: 22vw;
+    margin-bottom: 10px;
+
+}
+
+
+.bio p {
+    text-align: center;
+}
+
+.theteam img{
+    border-radius: 50%;
+    width: 15vw;
+    aspect-ratio: 1 /1;
+    max-width: 300px;
+    display: block;
+    margin: auto;
+
+}
+
+.footer {
+    display: flex;
+    padding: 40px 30px;
+    background-color: var(--offwhite);
+    width: 100%
+
+}
+
+
+.footer a:link, .footer a:visited {
+    text-decoration: none;
+    display: flex;
+    color: #3d2517
+}
+
+.footer a:hover {
+    font-weight: bold;
+}
+
+.footerlinks {
+    display: flex;
+    padding: 100px 100px;
+}
+
+.footerlinks div {
+    margin: 10px 40px;
+}
+
+.col h3 {
+    color: var(--lightpurple);
+
+}
+
+.col a, h3{
+    margin: 20px 0;
+
+}
+
+.emailsignup h3 {
+    font-size: 5vh;
+    margin-bottom: 40px;
+    color: var(--darkpurple);
+}
+
+.emailsignup{
+    max-width: 600px;
+    width: 35vw;
+    margin: 0 40px 0 20px;
+    padding: 60px 0;
+
+}
+
+.footer input[type=text]{
+    width: 24vw;
+    min-width: 100px;
+
+}
+
+.footer input[type=text], input[type=submit] {
+    height: 6vh;
+    min-height: 10px;
+    box-sizing: border-box;
+}
+
+.footer input[type=submit] {
+    width: 10vw;
+    min-width: 30px;
+    font-size: 2vh;
+    background-color: var(--verylightpurple);
+    border: 1px solid var(--black);
+}
